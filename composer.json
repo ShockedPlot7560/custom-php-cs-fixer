@@ -1,0 +1,27 @@
+{
+    "name": "shockedplot7560/custom-php-cs-fixer",
+    "description": "Set of PHP-CS-Fixer rules used in the development of Ely.by PHP projects",
+    "keywords": ["php-cs-fixer", "code style"],
+    "homepage": "https://github.com/ShockedPlot7560/php-code-style",
+    "authors": [
+        {
+            "name": "Ely.by team",
+            "email": "team@ely.by"
+        },
+        {
+            "name": "ErickSkrauch",
+            "email": "erickskrauch@ely.by"
+        }
+    ],
+    "license": "Apache-2.0",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShockedPlot7560\\cs\\": "src/"
+        }
+    }
+}
